@@ -45,7 +45,12 @@ const SignIn = () => {
           <div className="px-4 py-5  lg:px-5 lg:py-24 bg-slate-200 lg:rounded-l-lg">
             <h1 className="font-bold text-3xl text-sky-500">Hello, There!</h1>
             <p className="font-semibold text-xl">Sign in to your account!</p>
-            <p className="text-lg text-black/70 font-semibold">To be Reminded, that once you create a new account an old one would be replace, you can see the Source Code Here ...</p>
+            <p className="text-lg text-black/70 font-semibold">
+              To be Reminded, that once you create a new account an old one would be replace, you can see the Source Code{' '}
+              <a className="text-sky-500 border-b-2 border-sky-500" href="https://github.com/Azmye/login-flow-system-mark-I" target={'_blank'}>
+                Here
+              </a>
+            </p>
           </div>
         </div>
         <div className="px-4 lg:px-0 lg:w-[412px]">
